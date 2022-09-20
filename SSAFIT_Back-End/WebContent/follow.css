@@ -1,0 +1,251 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 12px;
+  list-style: none;
+  font-family: "맑은 고딕";
+  background-color: #f8f9fd;
+  text-decoration: none;
+}
+h2{
+  font-size:30px;
+}
+a {
+  color: #707070;
+}
+.d{
+  width:1140px;
+  height:1000px;
+}
+
+.dd{
+  align-items: center;
+}
+.da{
+  padding: 10px;
+  border: 1px solid #707070;
+  margin:10px;
+  border-radius: 8px;
+}
+.da>div>button{
+  background-color: antiquewhite;
+  border : 1px solid black;
+  width : 40px;
+  height: 20px;
+  border-radius: 10px;
+  margin:5px;
+  margin-top : 10px;
+}
+.ddda{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body {
+  position: relative;
+  min-width: 1140px;
+}
+
+.srch:hover {
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+#ad-banner {
+  display: hidden;
+  width: 100px;
+}
+
+.ct {
+  display: flex;
+}
+
+.top {
+  flex-wrap: wrap;
+  width: 1140px;
+  height: 40px;
+  display: block;
+}
+
+.inner-top {
+  width: 1140px;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inner-top>ul li {
+  font-size: 12px;
+  color: #707070;
+  margin: 0 20px 0 0;
+  letter-spacing: -1px;
+}
+
+.inner-top ul:nth-child(2) li {
+  font-size: 12px;
+  color: #707070;
+  margin: 0 0 0 20px;
+  letter-spacing: -1px;
+}
+
+.what {
+  justify-content: center;
+}
+
+.main-top {
+  display: flex;
+  justify-content: center;
+  height: 96px;
+}
+
+.main {
+  position: relative;
+  display: flex;
+  height: 68px;
+  width: 1140px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#logo img {
+  position: relative;
+  width: 100px;
+  height: 50px;
+}
+
+.search {
+  position: relative;
+}
+
+.srch {
+  position: absolute;
+  background: url("../img/ico_t_srch.png");
+  width: 20px;
+  height: 21px;
+  border: 0;
+  top: 10px;
+  right: 20px;
+}
+
+.srch:hover {
+  cursor: pointer;
+}
+
+.searchtext {
+
+  box-sizing: content-box;
+  width: 380px;
+  height: 20px;
+  padding: 10px 50px 10px 20px;
+  border: 0px;
+  background-color: rgba(255, 193, 193, 0.3);
+  font-size: 14px;
+  border-radius: 20px;
+}
+
+.pic {
+  width: 1140px;
+  height: 250px;
+}
+
+.video {
+  justify-content: space-around;
+}
+
+.foot {
+  display: flex;
+  width: 1140px;
+  justify-content: space-between;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+.hidden{
+  display:none;
+}
+
+.logout:hover {
+  cursor: pointer;
+}
+
+hr {
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin: 20px;
+  font-size: 30px;
+}
+
+.follow {
+  border: 1px solid #707070;
+  width: 400px;
+  height: 600px;
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.dda {
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.person{
+  position: relative;
+  display: flex;
+  margin:30px;
+  margin-left:30px;
+  align-items: center;
+}
+.person>span{
+  position:absolute;
+  margin-bottom: 5px;
+  margin-left:60px;
+  font-size: 20px;
+}
+.person>button{
+  margin-left: 200px;
+}
+
+button {
+  width: 60px;
+  height: 25px;
+  margin: 0 auto;
+  border: 1px solid rgba(250, 22, 22, 0.541);
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px #707070;
+}
+.person>button:hover {
+  background-color: rgba(250, 22, 22, 0.541);
+}
+button:hover{
+  cursor: pointer;
+}
+.srch{
+  box-shadow: none;
+}
+button:active {
+  background-color: rgba(70, 70, 70, 0.2);
+}
+.hidden{
+  display:none;
+}
+
+.logout:hover{
+cursor: pointer;
+}
